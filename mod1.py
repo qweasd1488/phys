@@ -63,5 +63,7 @@ for t in range (burntime+1):
     print("Скорость по y:", speedy)
     print("Скорость:", speed)
     print("Масса топлива:", currfuel)
+pt.title("Траектория ракеты")
 pt.plot(coordx,coordy)
+
 pt.show()
