@@ -26,7 +26,6 @@ print("Угол старта:")
 alpha = float(input()) * pi / 180
 print("Масса Земли,кг*10^(-24):")
 M = float(input())*10**24
-print(calc_g(0,M))
 print("Масса топлива,т:")
 fuel = float(input()) * 1000
 print("Масса ракеты,т:")
